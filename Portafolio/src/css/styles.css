@@ -1,13 +1,23 @@
 *{
+    font-family: "Ubuntu" , sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
 }
+
+html {
+    scrollbar-color: #00abf0 #000000;
+}
+
 
 body{
     background: #081b29;
     color: #ededed;
+}
+
+
+span{
+    color: #00abf0;
 }
 
 .header{
@@ -17,10 +27,15 @@ body{
     width: 100%;
     padding: 20px 10%;
     background: transparent;
+    backdrop-filter: blur(10px);
     display: flex;
     justify-content: space-between;
     align-items: center;
     z-index: 100;
+}
+
+.header a{
+    color: #ededed;
 }
 
 .logo{
@@ -28,6 +43,7 @@ body{
     color: #ededed;
     text-decoration: none;
     font-weight: 600;
+    text-shadow: 2px 1px 5px;
 
 }
 
@@ -38,6 +54,7 @@ body{
     font-weight: 500;
     margin-left: 35px;
     transition: .3s;
+    text-shadow: 2px 1px 5px;
 }
 
 .navbar a:hover{
@@ -45,22 +62,44 @@ body{
 }
 
 .aboutme{
-    height: 100vh;
+    
     display: flex;
     align-items: center;
     padding: 0 10%;
+    margin-top: 15%;
+    justify-content: space-between;
 }
 
 .aboutme-content{
     max-width: 900px;
+    font-weight: 600;
 }
 
 .aboutme-content h1{
     font-size: 56px;
     font-weight: 700;
     color: #00abf0;
+    text-shadow: 2px 1px 5px;
 }
 
 .aboutme-content p{
     font-size: 23px;
+}
+
+#projects{
+    height: 100vh;
+    align-items: center;
+    gap: 2rem;
+    padding: 0 10%;
+    padding-top: 300px;
+    
+}
+
+.lista{
+    padding-left: 20px;
+}
+
+.imagen img{
+    width: 60%;
+    
 }

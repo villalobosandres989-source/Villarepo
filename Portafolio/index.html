@@ -3,28 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Camilo's website</title>
-    <link rel="stylesheet" href="/src/css/styles.css">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="/Portafolio/src/css/styles.css">
+    <link rel="shortcut icon" href="/Portafolio/public/img/portafolio.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
 
     <header class="header">
-    <a href="#" class="logo">Camilo Villalobos</a>
+        <div class="logo">Camilo<span> Villalobos</span></div>
 
     <nav class="navbar">
-        <a href="#">About Me</a>
-        <a href="#">Projects</a>
+        <a href="/Portafolio/src/views/about_me.html">About Me</a>
+        <a href="#projects">Projects</a>
         <a href="#">Contact</a>
-        <a href="#">Pets</a>
+        <a href="/Portafolio/src/views/mascotas.html" target="_blank">Pets</a>
     </nav>
     </header>
 
     <section class="aboutme">
         <div class="aboutme-content">
             <h1>Hello Everyone!</h1>
-            <p>I'm Camilo Villalobos, I'm 19 years old, I'm from the city of Barranquilla and I've always liked technology<br> and software development because I like how these tools can solve different real-world problems. I enjoy doing different<br> activities that allow me to reach a level of experience with which I can improve as a person and as a professional.</p>
+            <br>
+            <p>I'm Camilo Villalobos, I'm 19 years old, I'm from the city of Barranquilla and I've always liked technology and software development because I like how these tools can solve different real-world problems. I enjoy doing different activities that allow me to reach a level of experience with which I can improve as a person and as a professional.</p>
         </div>
+        <div class="imagen">
+            <img src="/Portafolio/public/img/img.png" alt="foto de perfil">
+        </div>
+
     </section>
+    <section id="projects">
+        <h2><strong>Projects</strong></h2>
+        <br>
+        <ul class="lista">
+            <li>System Inventory</li>
+        </ul>
+
+        </section>
 </body>
 </html>
