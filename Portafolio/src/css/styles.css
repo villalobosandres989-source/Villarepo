@@ -11,7 +11,7 @@ html {
 
 
 body{
-    background: #081b29;
+    background: #010a10;
     color: #ededed;
 }
 
@@ -86,12 +86,16 @@ span{
     font-size: 23px;
 }
 
-#projects{
-    height: 100vh;
-    align-items: center;
+.projects{
+    height: 444px;
+    background-color: #061031;
+    border-radius: 20%;
     gap: 2rem;
-    padding: 0 10%;
-    padding-top: 300px;
+    margin: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 20px;
+    font-size: 35px;
     
 }
 
@@ -103,3 +107,40 @@ span{
     width: 60%;
     
 }
+
+.dividido{
+    text-align: center;
+}
+
+.inventario{
+    background-color: rgb(191, 203, 199);
+    padding-top: 0.5px;
+    width: 300px;
+    height: 180px;
+    margin-left: 50px;
+    border-radius: 12%;
+    text-align: center;
+    color: black;
+}
+
+.inventario p{
+    font-size: 20px;
+    color: black;
+    padding-top: 10%;
+}
+
+.inventario a{
+    padding: 12%;
+    background: linear-gradient(black, white);
+    padding-bottom: 5%;
+    padding-top: 5%;
+    border-radius: 30%;
+    font-size: 20px;
+    text-decoration: none;
+    color: #000000;
+}
+
+.inventario a:hover{
+    color: #de3d07;
+}
+
