@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: #ffffff;
+    background:linear-gradient(90deg, #00ffff, #5500ff);
     color: black;
 }
 
@@ -24,12 +24,21 @@ header{
 
 nav a{
     font-size: 2rem;
+    margin-right: 3rem;
     text-decoration: none;
     padding: 0.05rem;
     color: black;
     transition: 0.3s;
     border: 0;
     text-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff, 0 0 30px #00ffff, 0 0 40px #00ffff;
+}
+
+
+nav a:hover{
+    color: #00ffff;
+    text-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff, 0 0 30px #00ffff, 0 0 40px #00ffff;
+    transform: scale(2.5);
+    transition: 0.3s;
 }
 
 nav img{

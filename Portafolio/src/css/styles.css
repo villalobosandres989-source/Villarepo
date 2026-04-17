@@ -90,7 +90,6 @@ nav a:hover{
     }
 }
 
-
 #sect h1{
     font-size: 6rem;
     text-align: center;
@@ -173,11 +172,13 @@ span{
 }
 
 #projects{
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
     background-color: rgb(0, 0, 0);
-    padding: 5rem 9%;
-    min-height: 85vh;
+    padding: 5rem 6%;
+    min-height: 100vh;
     border-bottom: 3px solid #00bbff;
-    margin-bottom: 10rem;
 
 }
 
@@ -188,16 +189,19 @@ span{
     margin-top: 2%;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(60, 59, 59, 0.5);
-    min-height: 20vh;
+    width: 33%;
+    max-height: 30vh;
+    min-height: 30vh;
     font-size: 2.5rem;
 }
 
 
 .projects-grid{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
     gap: 2rem;
-    font-size: 2rem;
+    justify-content: space-around;
+    height: 20%;
+    flex-wrap: wrap;
 }
 
 .projects-grid a{
