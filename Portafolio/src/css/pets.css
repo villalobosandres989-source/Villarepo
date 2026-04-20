@@ -49,9 +49,12 @@ nav img{
 
 .images{
     display: flex;
+    flex-wrap: wrap;
     background-color: transparent;
     margin-top: 15%;
     height: 150%;
+    gap: 3rem;
+    justify-content: center;
 }
 
 .images img{
@@ -76,4 +79,49 @@ nav img{
 
 .logo h2{
     text-shadow: #ff00ff 0px 0px 10px, #ff00ff 0px 0px 20px, #ff00ff 0px 0px 30px, #ff00ff 0px 0px 40px;
+}
+
+
+.pet{
+    background-color: rgb(0, 0, 0);
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 15px #ff00ff;
+    transition: 0.5s;
+    color: #ededed;
+    border-radius: 50px;
+}
+
+@media(min-width: 576px){
+    .images{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 12rem;
+        justify-items: center;
+        align-items: center;
+        padding-top: 100px;
+    }
+
+
+    .pet{
+        display: flex;
+        height: 150%;
+        width: 60%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 0 15px #ff00ff;
+        transition: 0.5s;
+        color: #ededed;
+        border-radius: 50px;
+    
+    }
+
+    .pet img{
+        width: 200px;
+        height: 200px;
+    }
 }
