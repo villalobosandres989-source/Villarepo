@@ -21,10 +21,12 @@ header{
     margin: 0 0 2rem 0;
 }
 
+
 .logo{
     display: flex;
     gap: 2rem;
     align-items: start;
+    font-size: 3rem;
 }
 
 .logo a{
